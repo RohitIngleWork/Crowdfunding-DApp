@@ -1,25 +1,66 @@
-# Blockchain-based crowdfunding platform: `FundVerse`
+# Crowdfunding-DApp  
+### Decentralized Crowdfunding Platform using Blockchain
 
-**FundVerse** is a blockchain-based decentralized platform that combines social interactions with crowdfunding mechanisms, allowing any user to raise funds while becoming popular in the social network. Being **built over the Ethereum blockchain**, FundVerse is structured as a Decentralized Application **(DApp)**, that fosters crowdfunding without the intervention of any central authority,and recognizes the active role of donors, enabling them to support artists or projects as well as humanity use cases.
+Crowdfunding-DApp is a **blockchain-based decentralized crowdfunding application** that allows users to create, fund, and manage campaigns in a **secure, transparent, and trustless manner** using Ethereum smart contracts.
 
+---
 
-## Why blockchain based crowdfunding?
+## 🚀 Project Overview
 
-- Blockchain is a **decentralized ledger** that records network transactions securely and transparently hence contributors can determine how legitimate the campaign is?
-- There is **no minimum contribution requirement** i.e Contributors have the freedom to support campaigns with any amount they choose
--‌ Better **flexibility** and **accessibility** leads to **improved** reach of campaigns
-- Blockchain is **immutable** and support real time monitoring of data
--‌ Whereas, **DApps** are the applications that **run without downtime**, fraud, or any sort of regulations.
+Traditional crowdfunding platforms are centralized and often suffer from issues such as lack of transparency, fund misuse, and dependency on intermediaries.  
+**Crowdfunding-DApp** overcomes these challenges by leveraging **blockchain technology**, where all campaign operations and transactions are executed through **immutable smart contracts**.
 
+This ensures:
+- Full transparency
+- No third-party interference
+- Trustless fund handling
 
-## Technologies Utilised:
+---
 
-- **Backend** ( **Web 3** folder ): Solidity
-- **Frontend** ( **Client** folder ): Javascript, React Js, Tailwind CSS,etc
-- We have used **Thirdweb** and **Hardhat** to create and deploy the dApp on **Sepolia testnet.**
+## ✨ Key Features
 
+- 🔐 **Decentralized System** – No central authority controls user funds  
+- 📜 **Smart Contract Enforcement** – Campaign rules executed on-chain  
+- 💸 **Secure Fund Transfers** – Direct blockchain-based transactions  
+- 👥 **Campaign Creation** – Anyone can start a crowdfunding campaign  
+- 🔍 **Public Transparency** – All transactions are verifiable on Ethereum  
+- 🌐 **Web3 Wallet Integration** – MetaMask-based authentication  
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js  
+- HTML5, CSS3, JavaScript  
+- Web3.js / Ethers.js  
+
+### Blockchain
+- Ethereum  
+- Solidity (Smart Contracts)  
+
+### Tools & Frameworks
+- Hardhat / Truffle  
+- MetaMask  
+- Node.js  
+- Git & GitHub
+- Thirdweb
+  
 **Thirdweb** is a tool for creating, deploying, and managing dApps on the Ethereum blockchain and **hardhat** is a development environment for Ethereum smart contract development.
 
+---
+
+## 🧩 System Architecture
+
+1. User connects wallet via MetaMask  
+2. React frontend interacts with Ethereum smart contracts  
+3. Smart contracts manage:
+   - Campaign creation
+   - Contributions
+   - Fund withdrawal logic  
+4. Blockchain ensures immutability and transparency  
+
+---
 
 ## Challenges faced While Building this project:
 
@@ -32,29 +73,30 @@ Though there were many but some of the major challenges we faced while building 
 
 To Install and run this Blockchain based crowdfunding platform locally, one must follow all the steps mentioned below:
 
-**Clone the repository:**
+### Prerequisites
+- Node.js (v16 or higher)
+- MetaMask browser extension
+- Git
 
-         https://github.com/thekiranmahajan/FundVerse.git
+### Steps
 
-**Navigate to the web3 repository:**
+# Clone the repository
+git clone https://github.com/RohitIngleWork/Crowdfunding-DApp.git
 
-         cd web3
+# Navigate to the project directory
+cd Crowdfunding-DApp
 
-**Install required dependencies:**
+# Install dependencies
+npm install
 
-         npm install
+# Start local blockchain
+npx hardhat node
 
-**Navigate to the client repository:**
+# Deploy smart contracts
+npx hardhat run scripts/deploy.js --network localhost
 
-         cd client
-
-**Install required dependencies:**
-
-         npm install
-
-**Start the development server:**
-
-         npm run dev
+# Start frontend application
+npm start
 
 Open your browser and visit http://localhost:5173 to view the user interface of the crowdfunding platform.
 
@@ -63,18 +105,26 @@ Open your browser and visit http://localhost:5173 to view the user interface of 
 To use this DApp user must have an extension called [Metamask](https://metamask.io/download/), this is a web browser extension, you can install it on Firefox, Chrome, Opera,etc.
 
 
-## Additional Features: 
-   
-- The website offers Interactive forms so that contributors and campaign designers can both easily create and pool campaigns. 
-- These forms also Allow for donation and request approval.
-- The platform allows users to track the amount raised and days left for each campaign whereas, it includes functionality to track and display the number of donations made to a specific campaign, providing transparency and accountability.
-- The ability to track the progress of campaign creation and view multiple campaign cards created by different users adds transparency and visibility to the crowdfunding platform.
+## 🔐 Security Considerations
 
-## Credits:
+- Smart contracts are designed following best practices to mitigate common blockchain vulnerabilities  
+- Immutable blockchain transactions ensure that funds cannot be altered or tampered with  
+- Wallet-based authentication (MetaMask) removes the need for password storage, reducing security risks  
 
-https://github.com/adrianhajdin/project_crowdfunding
+---
 
-## Contributor:
+## 📈 Future Enhancements
 
-1.	https://github.com/thekiranmahajan
-2.	https://github.com/thesakshijaiswal
+- Campaign milestones with conditional and automated fund release  
+- DAO-based voting mechanism for decentralized campaign governance  
+- IPFS integration for decentralized storage of campaign media and metadata  
+- Multi-chain deployment support (Polygon, BSC, and other EVM-compatible networks)  
+
+---
+
+## 🎯 Learning Outcomes
+
+- Gained practical hands-on experience with **Ethereum and Solidity**  
+- Developed a strong understanding of **Web3 and DApp architecture**  
+- Learned smart contract development, deployment, and testing  
+- Implemented seamless integration between frontend applications and blockchain networks  
