@@ -1,0 +1,42 @@
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @matterlabs/hardhat-zksync-solc@1.5.1
+npm warn Found: hardhat@3.0.16
+npm warn node_modules/hardhat
+npm warn   dev hardhat@"^3.0.16" from the root project
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer hardhat@"^2.22.5" from @matterlabs/hardhat-zksync-solc@1.5.1
+npm warn node_modules/@matterlabs/hardhat-zksync-solc
+npm warn   dev @matterlabs/hardhat-zksync-solc@"^1.5.1" from the root project
+npm warn
+npm warn Conflicting peer dependency: hardhat@2.27.1
+npm warn node_modules/hardhat
+npm warn   peer hardhat@"^2.22.5" from @matterlabs/hardhat-zksync-solc@1.5.1
+npm warn   node_modules/@matterlabs/hardhat-zksync-solc
+npm warn     dev @matterlabs/hardhat-zksync-solc@"^1.5.1" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @matterlabs/hardhat-zksync-telemetry@1.1.1
+npm warn Found: hardhat@3.0.16
+npm warn node_modules/hardhat
+npm warn   dev hardhat@"^3.0.16" from the root project
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer hardhat@"^2.22.5" from @matterlabs/hardhat-zksync-telemetry@1.1.1
+npm warn node_modules/@matterlabs/hardhat-zksync-solc/node_modules/@matterlabs/hardhat-zksync-telemetry
+npm warn   @matterlabs/hardhat-zksync-telemetry@"^1.1.1" from @matterlabs/hardhat-zksync-solc@1.5.1
+npm warn   node_modules/@matterlabs/hardhat-zksync-solc
+npm warn
+npm warn Conflicting peer dependency: hardhat@2.27.1
+npm warn node_modules/hardhat
+npm warn   peer hardhat@"^2.22.5" from @matterlabs/hardhat-zksync-telemetry@1.1.1
+npm warn   node_modules/@matterlabs/hardhat-zksync-solc/node_modules/@matterlabs/hardhat-zksync-telemetry
+npm warn     @matterlabs/hardhat-zksync-telemetry@"^1.1.1" from @matterlabs/hardhat-zksync-solc@1.5.1
+npm warn     node_modules/@matterlabs/hardhat-zksync-solc
+
+up to date, audited 319 packages in 1s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
