@@ -89,9 +89,6 @@ cd Crowdfunding-DApp
 # Install dependencies
 npm install
 
-# Start local blockchain
-npx hardhat node
-
 # Deploy smart contracts
 npx hardhat run scripts/deploy.js --network localhost
 
