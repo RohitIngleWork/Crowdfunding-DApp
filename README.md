@@ -90,7 +90,7 @@ cd Crowdfunding-DApp
 npm install
 
 # Deploy smart contracts
-npx hardhat run scripts/deploy.js --network localhost
+npx hardhat run scripts/deploy.js --network localhost ->This needs to be changed
 
 # Start frontend application
 npm start
